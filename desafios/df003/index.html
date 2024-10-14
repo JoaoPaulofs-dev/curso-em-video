@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: black;
+        }
+        h1,h2,h3,h4,h5,h6{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        hr{
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <hr>
+    <p>
+        Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a maior experiência. 
+        &#x1F92F 
+    </p>
+    <picture>
+        <source media="(max-width:790px )" srcset="img/paisagem-p.png" type="image/png">
+        <source media="(max-width:1250px )" srcset="img/paisagem-m.png" type="image/png">
+        <img src="img/paisagem-g.png" alt="imagem flexível">
+    </picture>
+</body>
+</html>

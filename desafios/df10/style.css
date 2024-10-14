@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+body{
+    background-color: #b3d8b3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+    
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(0, 255, 0), rgb(1, 66, 1));
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    
+}
+header>h1{
+    text-align: center;
+}
+header>p{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+nav>a{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+nav>a:hover{
+    background-color: #02ff028f;
+}
+main{
+    width: 800px;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+     border-radius: 0px 0px 10px 10px;
+}
+main>h1{
+    text-align: center;
+    font-family: 'idroid', sans-serif;
+    color: darkgreen;
+    margin: 0px;
+}
+main>p{
+    text-indent: 20px;
+    padding: 0px 10px 10px 10px;
+    
+}
+.marcado{
+    color: darkgreen;
+    font-weight: bold;
+}
+main>h2{
+    background-image: linear-gradient(to right, #0080003f, #fffcfc);
+    margin-left: 10px;
+    color: darkgreen;
+    font-family: 'idroid', sans-serif;
+   padding: 0px 10px 0px 36px;
+}
+main>h3{
+    background-color: green;
+    color: white;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+.centro{
+    text-align: center;
+}
+.video{
+    text-align: center;
+    background-color: darkgreen;
+    padding: 10px 10px 10px 10px;
+}
+.final{
+    background-color: lightgreen;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;    
+}
+.final2{
+    background-color: lightgreen;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+}
+
+
