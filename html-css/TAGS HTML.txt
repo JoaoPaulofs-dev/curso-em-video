@@ -122,6 +122,7 @@ CTRL + SHIFT + P- DEPOIS PESQUISAR POR ABB PARA COLOCAR UMA TAG EM UM LOCAL ESPE
 <INPUT VALUE="DIGITE ALGO"> USAR CAIXA JA PREENCHIDA(EX025 FORM003)
 <INPUT PATTERN="^DIGITE ALGO$"> CRIAR UMA REGEX( REGEX PARA NUMERO DE CELULAR pattern="^\(\d{2}\)\d{4,5}-\d{4}$"(EX025 FORM004)
 <INPUT CHECKED> USAR UMA CAIXA QUE JA APARECE MARCADA ( USAR EM INPUT:RADIO OU :CHECKBOX)(EX025 FORM005)
+<OUTPUT> CRIAR UM CAIXA QUE APRESETA RESULTADOS PARA O USUARIO (EX025 FORM008/009)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!CRIAR CAIXA COM SELETOR FIXO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 EX025 FORM007
